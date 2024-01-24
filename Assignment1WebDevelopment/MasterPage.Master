@@ -1,0 +1,92 @@
+﻿
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Assignment1WebDevelopment.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Premier League - Official Store</title>
+    <meta charset="utf-8">
+    <link id="defaultCSS" rel="stylesheet" href="mystylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="myscript.js"></script>
+    <script src="jQuery.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="showSlides()">
+    <form id="form1" runat="server">
+        <div>
+
+            <!-- Header Section -->
+            <header>
+                <video id="video" src="Images/videoBanner2.mp4" type="video/mp4" autoplay muted="muted"></video>
+            </header>
+            <!-- End of Header Section -->
+
+            <!-- Navigation Section -->
+            <div id="navigationMenu">
+                <nav>
+                    <ul>
+                        <li><a href="Default.aspx">Home </a></li>
+                        <li><a href="Products.aspx">Our Products </a></li>
+                        <li><a href="Staff.aspx">Meet Us </a></li>
+                        <li><a href="Reviews.aspx">Reviews </a></li>
+                        <li><a href="FandQ.aspx">FAQ </a></li> 
+                        <li><a href="Contact.aspx">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End of Navigation Section -->
+
+            <!-- Main Content -->
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer Section -->
+            <footer id="foot">
+                <div class="footContent">
+                    <address>
+                        <ul>
+                            <li><h4>Premier League - Official Store</h4></li>
+                            
+                            <li>30 Fake Street</li>
+                            <li>Dublin 2</li>
+                            <li>Phone: 01-4895471</li>
+                            <li>Email: <a>info@offstore.com</a></li>
+                        </ul>
+                    </address>
+                </div>
+
+                <div class="footContent">
+                    <ul>
+                        <li><h4>Useful Links</h4></li>
+                        <li><a href="https://www.premierleague.com/">Premier League Website</a></li>
+                        <li><a href="https://www.fifa.com/">FIFA Website</a></li>
+                        <li><a href="https://www.classicfootballshirts.co.uk/">Classic Football Shirts</a></li>
+                        <li><a href="https://www.fai.ie">Irish Football Association</a></li>
+                    </ul>
+                </div>
+
+                <div id="socialMedia" class="footContent">
+                    <h4>Follow us on social media</h4>
+                    <a href="https://www.instagram.com/premierleague"><img class="socialMediaIcons" src="Images/instagramLogo.png" alt="Link to Instagram account"/></a>
+                    <a href="https://www.twitter.com/premierleague"><img class="socialMediaIcons" src="Images/twitterLogo.png" alt="Link to twitter account"/></a>
+                    <a href="https://www.tiktok.com/@premierleague"><img class="socialMediaIcons" src="Images/tiktokLogo.png" alt="Link to TikTok account"/></a>
+                </div>
+                <div class="clear"></div>
+            </footer>
+
+
+        </div>
+    </form>
+</body>
+</html>

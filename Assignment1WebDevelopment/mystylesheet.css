@@ -1,0 +1,696 @@
+﻿body {
+    background-color: #37013f;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    color: #37013f;
+}
+
+#video {
+    margin-left: 50px;
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+#navigationMenu {
+    background-color: #cbc3e3;
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    width: 884px;
+    margin-left: 50px;
+    height: 45px;
+    margin-top: -4px;
+}
+
+    nav ul{
+        list-style-type: none;
+        overflow: hidden;
+        margin-left: -35px;
+    }
+    
+    nav ul li{
+        display: inline;
+    }
+
+    nav li a {
+        float: left;
+        color: #37013f;
+        text-decoration: none;
+        padding-inline: 30px;
+    }
+
+    nav ul li a:hover {
+        color: black;
+        font-weight: bolder;
+    }
+
+#content {
+    background-color: #d8bfd8;
+    width: 900px;
+    margin-left:50px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #cbc3e3;
+    width: 900px;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+    footer ul {
+        list-style-type: none;
+    }
+
+    footer ul li {
+       font-style: normal;
+    }
+
+    footer ul li a {
+      text-decoration: none;
+      text-align: justify;
+      color: #37013f;
+    }
+
+    .footContent {
+        float: left;
+        text-align: justify;
+        padding: 2.5px;
+        padding-bottom: 10px;
+        padding-inline: 25px;
+    }
+
+    #socialMedia {
+        text-align: center;
+    }
+        .socialMediaIcons {
+            width: 40px;
+        }
+
+    .clear {
+        clear: left;
+    }
+
+p{
+    margin: 0;
+}
+
+.staffImage {
+    width: 250px;
+    height: 300px;
+    border-style: double;
+    border-color: rebeccapurple;
+    border-width: 5px;
+}
+
+.pStaffLeft {
+    text-align: justify;
+    padding-left: 50px;
+}
+
+.pStaffRight {
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.headers{
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+}
+
+    th {
+        text-align: center;
+    }
+
+    td {
+        width: min-content;
+        padding: 0px;
+    }
+
+    tr {
+        width: min-content;
+        padding: 0;
+    }
+    table tr td ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .centerLeftImage {
+        text-align: center;
+    }
+    .centerLeftText {
+        text-align: justify;
+    }
+
+    .centerRightImage {
+        text-align: center;
+    }
+
+    .staffName {
+        padding-left: 50px;
+    }
+
+.review {
+    margin: 0;
+    text-align: justify;
+    padding-left: 75px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 750px;
+    float: left;
+}
+
+    .review img {
+        width: 85px;
+    }
+
+    .review1 {
+        float: left;
+        width: 350px;
+        padding: 10px;
+    }
+
+    .review2 {
+        float: left;
+        width: 350px;
+        background-color: #cbc3e3;
+        padding: 10px;
+    }
+
+.customerName {
+    text-align: center;
+    font-style: italic;
+}
+
+#clubRow {
+    display: inline;
+    margin-left:5px;
+}
+
+.clubIcons{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.productsImage{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.productsTable{
+    text-align: center;
+   
+}
+
+.teamJerseys{
+    width: 250px;
+    height: 250px;
+}
+
+#secondSetOfTeams {
+    display: none;
+}
+
+#thirdSetOfTeams {
+    display: none;
+}
+
+#lastSetOfTeams {
+    display: none;
+}
+
+#divDisplayControler {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+}
+
+.showSlider {
+    display: none;
+    height: 50px;
+    width: 550px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.fixtures {
+    width: 400px;
+    height: 225px;
+    margin-left: 0px;
+}
+
+.fixturesLogos{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.fixtureDiv1{
+    height: 110px;
+    width: 250px;
+}
+
+.versusIcon {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    background-color: #d8bfd8;
+    border: unset;
+    font-weight: bolder; 
+    color: #37013f;
+}
+
+.fixtureDetails {
+    height: 110px;
+    width: 250px;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#fixturesFd{
+    margin-left: 220px;
+    height: 120px;
+    width: 500px;
+    border-style: none;
+}
+
+.differentcolor {
+    background-color: #cbc3e3;
+    width: 894px;
+    padding: 3px;
+}
+
+.pq{
+    margin-top: 5px;
+    font-weight: bold;
+    padding: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.answer{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.faqcontent{
+    display: none;
+}
+
+
+#shirtImage {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+
+.clubs {
+    width: 300px;
+    height: 250px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#details {
+    float: left;
+    margin-left: 130px;
+}
+
+#btnCheckOut {
+    margin-top: 15px;
+    margin-right: 125px;
+    float: right;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#extraShirts {
+    margin-left: 150px;
+    width: 40%;
+    height: 100px;
+}
+
+.shirtIcons {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+#modalDiv{
+    display: block;
+    width: 900px;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+}
+
+.pIndexRight {
+    text-align: center;
+}
+
+.pIndexLeft{
+    text-align: center;
+}
+
+#indexIconRight{
+    width: 200px;
+    height: 250px;
+    float: right;
+}
+
+#indexIconLeft{
+    width: 180px;
+    height: 180px;
+    float: left;
+}
+
+#secondDiv{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-inline: 50px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+
+#firstDiv {
+    margin-left: 40px;
+    width: 800px;
+}
+
+#shopDetails {
+    width: 75%;
+    margin-left: 100px;
+    border: solid;
+    border-color: #37013f;
+    border-top: -200px;
+}
+
+.tableDetails {
+    border: solid;
+    border-color: #37013f;
+    text-align: center;
+    padding: 10px;
+}
+
+#checkOut{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#totalPrice{
+    font-weight: bolder;
+}
+
+#logIn{
+    display: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.logInTable{
+    width: 50%;
+    margin-left: 225px;
+}
+
+.inputs{
+    text-align: left;
+}
+
+.labels{
+    text-align: right;  
+}
+
+#newAccountLabel{
+    text-align: center;
+    font-size: 12px;
+}
+
+#newAccount {
+    display: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+u{
+    cursor: pointer;
+}
+
+.addToBasket {
+    margin-top: 15px;
+    float: right;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#fdPerson{
+    margin-top: 10px;
+}
+
+.btnLogin {
+    margin-top: 15px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 425px;
+}
+
+.btnNewAccount {
+    margin-top: 15px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+.clientName {
+    color: #37013f;
+    font-weight: bolder;
+    margin-left: 75px;
+}
+
+#clientDisplay{
+    margin-top: 25px;
+}
+
+#inputRangeValue{
+    padding-left: 70px;
+    text-align: left;
+}
+
+#review{
+    margin-left: 45px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    border: unset;
+}
+
+#reviewHeader{
+    font-weight: bolder;
+    margin-left: 45px;
+}
+
+#reviewForm{
+    float: left;
+    margin-top: 30px;
+}
+
+#reviewPicture{
+    float: left;
+    width: 450px;
+}
+
+#klopp{
+    border-left: none;
+    width: 450px;
+    padding-top: 50px;
+}
+
+.btnReview {
+    margin-top: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 105px;
+}
+
+.txtReview{
+    width: 161px;
+    height: 170px;
+    text-align:start;
+}
+
+#work{
+    padding-top: 25px;
+    margin-left: 230px;
+}
+
+.Apply {
+    margin-top: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 255px;
+}
+
+#shirtRequest {
+    display: none;
+    padding-top: 25px;
+    margin-left: 70px;
+}
+
+.shirtRequest {
+    margin-top: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 375px;
+}
+
+#btnWork {
+    margin-left: 320px;
+    margin-top: 20px;
+    background-color: #d8bfd8;
+    border-bottom: unset;
+}
+
+#btnRequestShirt {
+    margin-left: 15px;
+    margin-top: 20px;
+    background-color: #d8bfd8;
+    border-color: #d8bfd8;
+    border-bottom: unset;
+}
+
+#floatingDiv {
+    width: 400px;
+    height: 370px;
+    border: 10px solid;
+    border-color: #37013f;
+    position: fixed;
+    top: 100px;
+    left: 420px;
+    z-index: 10;
+    background-color: #d8bfd8;
+}
+
+#teamDisplay{
+    margin-left: 90px;
+}
+
+.clubIconsDefault {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 13px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#ordersTable{
+    width: 800px;
+    margin-left: 50px;
+    text-align: center;
+    border: solid;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.orderTableDetails{
+    border-top: solid;
+    border-bottom: solid;
+    border-collapse: collapse;
+}
+
+#lastPage{
+   margin-top: 0px;
+   margin-left: 110px;
+   padding-top: 20px;
+}
+
+#lastParagraph{
+    text-align: center;
+    width: 600px;
+    margin-left: 150px;
+}
+
+#seeOrders {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 315px;
+}
+
+.btnKeep {
+    margin-top: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#showOrders{
+    display: none;
+}
+
